@@ -32,4 +32,12 @@ public class FizzBuzzTest {
             assertEquals("Fizz", fizzBuzz.run(6));
         }
     }
+
+    //one assertion per test
+    @Test
+    void shouldBeBuzzWhenMultipleOfFive() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("Buzz", fizzBuzz.run(10));
+        assertEquals("Buzz", fizzBuzz.run(5));
+    }
 }
