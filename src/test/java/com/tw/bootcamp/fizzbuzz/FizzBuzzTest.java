@@ -1,4 +1,4 @@
-package fizzbuzz;
+package com.tw.bootcamp.fizzbuzz;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package fizzbuzz;
+package com.tw.bootcamp.fizzbuzz;
 
 public class FizzBuzz {
     public static final String FIZZ = "Fizz";
